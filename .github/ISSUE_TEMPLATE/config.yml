@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Billing / account support
+    url: mailto:support@nt2.me
+    about: Subscription, receipts, and account issues — not tracked as public Issues.
+  - name: Privacy / GDPR
+    url: mailto:privacy@nt2.me
+    about: Privacy requests and data-protection questions.
+  - name: Security vulnerability
+    url: mailto:security@nt2.me
+    about: Report security issues privately — do not open a public Issue.
+  - name: End-user Help
+    url: https://nt2.me/help
+    about: Self-service FAQ before filing feedback.
+  - name: Community Discord
+    url: https://discord.gg/K3YmGgwvV
+    about: Casual discussion and roadmap voting; promote durable items here as Issues.

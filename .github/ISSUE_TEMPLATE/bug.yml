@@ -1,0 +1,65 @@
+name: Bug report
+description: Reproducible, non-sensitive product bug
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never** include master passwords, mnemonics, private keys, `.nt2backup` files, full Key DID / vaultId, or screenshots with secrets.
+
+        Need staff reply with environment details? Use **in-app Report a problem** first, then paste only the `referenceCode` below.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - PWA (browser)
+        - Desktop (Tauri)
+        - iOS
+        - Android
+        - Unknown / multiple
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: From Settings → About (or equivalent).
+      placeholder: e.g. 0.x.y
+    validations:
+      required: true
+  - type: input
+    id: reference_code
+    attributes:
+      label: In-app reference code (optional)
+      description: From a successful in-app bug report. Do not paste the full environment dump.
+      placeholder: e.g. NT2-…
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps others can follow.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing Issues for duplicates
+          required: true
+        - label: This report contains no passwords, keys, backups, or vault plaintext
+          required: true

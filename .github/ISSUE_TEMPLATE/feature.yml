@@ -1,0 +1,38 @@
+name: Feature request
+description: Concrete product enhancement (prefer Discussions → Ideas first for brainstorming)
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Opening a Feature Issue does **not** guarantee roadmap placement. For early brainstorming, use [Discussions → Ideas](https://github.com/nt2-community/product-feedback/discussions/categories/ideas).
+  - type: textarea
+    id: user_story
+    attributes:
+      label: User story
+      description: As a … I want … so that …
+      placeholder: As a vault user, I want … so that …
+    validations:
+      required: true
+  - type: textarea
+    id: why_now
+    attributes:
+      label: Why existing UX is insufficient
+      description: What you tried today and where it falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Acceptable constraints (optional)
+      description: e.g. Desktop-only, Premium-only, must work fully offline.
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched Issues and Discussions for duplicates
+          required: true
+        - label: This request contains no secrets or vault plaintext
+          required: true

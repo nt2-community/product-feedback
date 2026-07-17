@@ -6,11 +6,10 @@ Public backlog for **sanitised** bug reports and feature requests for [NT² Vaul
 |---|---|
 | **Issues** | https://github.com/nt2-community/product-feedback/issues |
 | **Discussions** | https://github.com/nt2-community/product-feedback/discussions |
-| **Local checkout** | `~/dev/nt2-community/product-feedback/` (sibling of the private `nt2` monorepo) |
 | **Community hub** | https://community.nt2.me/ |
 | **Discord** | https://discord.gg/K3YmGgwvV |
 
-This repository is **not** a support ticket portal and **not** the private product codebase. Opening an Issue does **not** guarantee roadmap placement or a reply SLA.
+This repository is **not** a support ticket portal and **not** the product codebase. Opening an Issue does **not** guarantee roadmap placement or a reply SLA.
 
 ## Channel routing
 
@@ -40,10 +39,10 @@ Staff may edit or delete posts that leak sensitive material.
 ## How feedback becomes product work
 
 ```text
-Discord discussion  →  GitHub Issue (durable)  →  private executable spec  →  ship  →  close Issue
+Discord discussion  →  GitHub Issue (durable)  →  staff roadmap  →  ship  →  close Issue
 ```
 
-Popular Issues are **signals** only. Shipping still requires a private feature spec in the NT² monorepo. Staff triage labels (`needs-triage` → `confirmed` / `needs-info` / `duplicate` / `planned` / `in-progress` / `shipped` / `wontfix`).
+Popular Issues are **signals** only. Staff triage labels (`needs-triage` → `confirmed` / `needs-info` / `duplicate` / `planned` / `in-progress` / `shipped` / `wontfix`). Confirmed work is planned and shipped by the NT² team; public Issues are not a shipping queue with an SLA.
 
 ## Voting (v1)
 
@@ -57,5 +56,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md). This repo is **Issues + Discussions fi
 
 - End-user Help: https://nt2.me/help
 - Contact: https://nt2.me/contact
-- In-app / email support policy: private monorepo spec **044** (Dash inbox — environment stays private)
-- Decision: public feedback lives here (**DEC-156** / feature **147**)
+- In-app Report a problem / email support: use those channels when you need a private staff reply (environment details stay private)

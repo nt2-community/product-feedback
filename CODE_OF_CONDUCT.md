@@ -1,6 +1,6 @@
 # Code of Conduct
 
-NT² Community spaces (including this repository and [Discord](https://discord.gg/K3YmGgwvV)) exist for product discussion, peer help, and ecosystem contribution.
+NT² Community spaces (including this repository and [Discord](https://discord.gg/MRRmbBe48)) exist for product discussion, peer help, and ecosystem contribution.
 
 ## Expected
 

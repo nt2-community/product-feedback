@@ -7,7 +7,7 @@ Public backlog for **sanitised** bug reports and feature requests for [NT² Vaul
 | **Issues** | https://github.com/nt2-community/product-feedback/issues |
 | **Discussions** | https://github.com/nt2-community/product-feedback/discussions |
 | **Community hub** | https://community.nt2.me/ |
-| **Discord** | https://discord.gg/K3YmGgwvV |
+| **Discord** | https://discord.gg/MRRmbBe48 |
 
 This repository is **not** a support ticket portal and **not** the product codebase. Opening an Issue does **not** guarantee roadmap placement or a reply SLA.
 
